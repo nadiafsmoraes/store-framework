@@ -28,7 +28,7 @@
       "stack-layout"
     ]
   },
-  "stack-layout#brand": {
+  "stack-layout": {
     "children": [
       "product-images",
       "product-brand"
@@ -36,7 +36,7 @@
   },
   "product-brand": {
     "props": { 
-      "height": "30px"
+      "height": "30"
     }
   },
   "flex-layout.col#right": {
@@ -67,7 +67,7 @@
   },
   "sku-selector": {
     "props": {
-      "showVariationsLabels": "true",
+      "showValueNameForImageVariation": "true",
       "showVariationsErrorMessage": "true",
       "initialSelection": "empty"
 
