@@ -1,0 +1,27 @@
+{
+    "store.custom#landing": { 
+      "blocks": [
+        "image#landingbanner", 
+        "search-result-layout.customQuery"
+      ]
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "maxItemsPerPage": "8",
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "ft",
+                //"restField": "",
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": "true"
+                //"skusFilter": ""
+            }
+         }
+    },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png"
+            //"maxHeight": "24px"
+        }
+    }
+}
